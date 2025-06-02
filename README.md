@@ -7,7 +7,7 @@ This document outlines a comprehensive solution for addressing severely crowned 
 ## The Problem
 
 **Severely Crowned Ice Surface**
-- Ice crown height: 3-4 inches at center
+- Ice crown height: 2-3 inches at center
 - Thin edges with thick center buildup
 - Unsafe skating conditions
 - Requires systematic material removal
