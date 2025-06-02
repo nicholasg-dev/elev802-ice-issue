@@ -73,7 +73,7 @@ The solution employs a three-pass approach with progressively finer blade settin
 - **Blade Depth**: Never exceed your machine's maximum safe cutting depth
 - **Speed Control**: Use slower speeds for aggressive cuts to maintain control
 - **Overlap Patterns**: Ensure 50% overlap between passes to avoid ridges
-- **Ice Temperature**: Ideal ice temperature is 22-26°F for cutting
+- **Ice Temperature**: Ideal ice temperature is +26°F for cutting
 - **Blade Condition**: Use sharp blades - dull blades will cause tearing
 
 ## Expected Results
@@ -97,7 +97,7 @@ The solution employs a three-pass approach with progressively finer blade settin
 ## Technical Specifications
 
 - **Total Passes**: 3 progressive cuts
-- **Blade Range**: -4mm to -0.5mm
+- **Blade Range**: -2.5mm to -0.5mm
 - **Material Removal**: Up to 2 inches of crown height
 - **Surface Finish**: Skating quality
 - **Equipment Required**: Standard ice resurfacer with adjustable blade
@@ -119,5 +119,3 @@ The solution employs a three-pass approach with progressively finer blade settin
 - **Skill Level**: Intermediate to advanced ice maintenance
 
 ---
-
-*This README summarizes the comprehensive ice resurfacing solution documented in the accompanying HTML visualization.*
