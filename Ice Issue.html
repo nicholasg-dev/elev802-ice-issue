@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- ========================================= -->
+<!-- HTML HEAD SECTION -->
+<!-- ========================================= -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprehensive Ice Resurfacer Solution</title>
+    
+    <!-- ========================================= -->
+    <!-- CSS STYLES -->
+    <!-- ========================================= -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f0f8ff;
+        }
+        .diagram-container {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #1e3a8a;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #1e40af;
+            border-bottom: 2px solid #3b82f6;
+            padding-bottom: 5px;
+        }
+        svg {
+            width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .problem { stroke: #dc2626; fill: #fecaca; }
+        .solution { stroke: #059669; fill: #a7f3d0; }
+        .equipment { stroke: #7c3aed; fill: #ddd6fe; }
+        .ice { stroke: #0ea5e9; fill: #bae6fd; }
+        .concrete { stroke: #6b7280; fill: #e5e7eb; }
+        .text-label { font-size: 12px; font-weight: bold; }
+        .arrow { stroke: #374151; stroke-width: 2; marker-end: url(#arrowhead); }
+        .step {
+            background: #eff6ff;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 15px 0;
+            border-left: 4px solid #3b82f6;
+        }
+        .blade-setting {
+            background: #f1f5f9;
+            border: 2px solid #64748b;
+            border-radius: 8px;
+            padding: 12px;
+            margin: 10px 0;
+            display: inline-block;
+            width: 180px;
+            text-align: center;
+        }
+        .pass-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 20px 0;
+        }
+        .warning {
+            background: #fef3c7;
+            border: 2px solid #f59e0b;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        .success {
+            background: #dcfce7;
+            border: 2px solid #16a34a;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 15px 0;
+        }
+    </style>
+</head>
+
+<!-- ========================================= -->
+<!-- MAIN BODY CONTENT -->
+<!-- ========================================= -->
+<body>
+    <!-- ========================================= -->
+    <!-- PAGE TITLE -->
+    <!-- ========================================= -->
+    <h1>Comprehensive Ice Resurfacer Solution: Progressive Blade Adjustment</h1>
+    
+    <!-- ========================================= -->
+    <!-- PROBLEM DESCRIPTION SECTION -->
+    <!-- ========================================= -->
+    <div class="diagram-container">
+        <h2>The Problem: Crowned Ice Surface</h2>
+        <svg viewBox="0 0 600 200">
+            <defs>
+                <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="#374151" />
+                </marker>
+            </defs>
+            
+            <!-- Concrete base -->
+            <rect x="50" y="120" width="500" height="30" class="concrete" />
+            <text x="300" y="140" text-anchor="middle" class="text-label"> Base</text>
+            
+            <!-- Crowned ice -->
+            <path d="M 50 120 Q 300 70 550 120" class="problem" stroke-width="8" fill="none" />
+            <text x="300" y="60" text-anchor="middle" class="text-label" fill="#dc2626">Severely Crowned Ice (3-4 inches high)</text>
+            
+            <!-- Height measurement -->
+            <line x1="300" y1="78" x2="300" y2="120" class="arrow" />
+            <text x="310" y="100" class="text-label">Excess Height to Remove</text>
+            
+            <!-- Problem indicators -->
+            <circle cx="50" cy="120" r="3" fill="#dc2626" />
+            <circle cx="550" cy="120" r="3" fill="#dc2626" />
+            <text x="20" y="115" class="text-label" fill="#dc2626">Thin Edge</text>
+            <text x="555" y="115" class="text-label" fill="#dc2626">Thin Edge</text>
+        </svg>
+    </div>
+
+    <!-- ========================================= -->
+    <!-- SOLUTION DIAGRAM SECTION -->
+    <!-- ========================================= -->
+    <div class="diagram-container">
+        <h2>Merged Solution: Progressive Multi-Pass Blade Cutting</h2>
+        <svg viewBox="0 0 800 350">
+            <!-- Original crowned ice (reference) -->
+            <path d="M 50 250 Q 400 180 750 250" stroke="#dc2626" stroke-width="3" stroke-dasharray="5,5" fill="none" />
+            <text x="400" y="170" text-anchor="middle" class="text-label" fill="#dc2626">Original Crown (Reference)</text>
+            
+            <!-- Base -->
+             <rect x="50" y="250" width="700" height="20" class="concrete" />
+             <text x="400" y="285" text-anchor="middle" class="text-label">Base</text>
+            
+            <!-- Pass 1: Aggressive Cut -->
+            <g>
+                <rect x="100" y="40" width="140" height="50" class="equipment" />
+                <rect x="70" y="80" width="25" height="25" class="equipment" stroke="#dc2626" stroke-width="4" />
+                <circle cx="120" cy="115" r="18" fill="#374151" />
+                <circle cx="220" cy="115" r="18" fill="#374151" />
+                <text x="170" y="70" text-anchor="middle" class="text-label" fill="#dc2626">PASS 1: AGGRESSIVE</text>
+                <text x="170" y="120" text-anchor="middle" class="text-label" font-size="10px">Blade: -3 to -4mm</text>
+                
+                <!-- Cutting path -->
+                <path d="M 80 140 Q 250 160 420 140" class="arrow" stroke="#dc2626" stroke-width="4" />
+                <text x="250" y="155" text-anchor="middle" class="text-label" font-size="11px" fill="#dc2626">Deep Cut Center</text>
+            </g>
+            
+            <!-- After Pass 1 ice profile -->
+            <path d="M 70 250 Q 400 200 730 250" stroke="#e67e22" stroke-width="5" fill="none" />
+            <text x="600" y="195" class="text-label" font-size="10px" fill="#e67e22">After Pass 1: Major reduction</text>
+            
+            <!-- Pass 2: Medium Cut -->
+            <g>
+                <rect x="300" y="40" width="140" height="50" class="equipment" />
+                <rect x="270" y="80" width="25" height="25" class="equipment" stroke="#f59e0b" stroke-width="3" />
+                <circle cx="320" cy="115" r="18" fill="#374151" />
+                <circle cx="420" cy="115" r="18" fill="#374151" />
+                <text x="370" y="70" text-anchor="middle" class="text-label" fill="#f59e0b">PASS 2: MEDIUM</text>
+                <text x="370" y="120" text-anchor="middle" class="text-label" font-size="10px">Blade: -2 to -2.5mm</text>
+                
+                <!-- Cutting path -->
+                <path d="M 280 140 Q 400 150 520 140" class="arrow" stroke="#f59e0b" stroke-width="3" />
+                <text x="400" y="155" text-anchor="middle" class="text-label" font-size="11px" fill="#f59e0b">Refine Cut</text>
+            </g>
+            
+            <!-- After Pass 2 ice profile -->
+            <path d="M 60 250 Q 400 220 740 250" stroke="#f39c12" stroke-width="4" fill="none" />
+            <text x="150" y="225" class="text-label" font-size="10px" fill="#f39c12">After Pass 2: Fine-tuned</text>
+            
+            <!-- Pass 3: Fine Cut -->
+            <g>
+                <rect x="500" y="40" width="140" height="50" class="equipment" />
+                <rect x="470" y="80" width="25" height="25" class="equipment" stroke="#16a34a" stroke-width="2" />
+                <circle cx="520" cy="115" r="18" fill="#374151" />
+                <circle cx="620" cy="115" r="18" fill="#374151" />
+                <text x="570" y="70" text-anchor="middle" class="text-label" fill="#16a34a">PASS 3: FINE</text>
+                <text x="570" y="120" text-anchor="middle" class="text-label" font-size="10px">Blade: -0.5 to -1mm</text>
+                
+                <!-- Cutting path -->
+                <path d="M 480 140 Q 570 145 660 140" class="arrow" stroke="#16a34a" stroke-width="2" />
+                <text x="570" y="155" text-anchor="middle" class="text-label" font-size="11px" fill="#16a34a">Final Smooth</text>
+            </g>
+            
+            <!-- Final level ice -->
+            <rect x="50" y="240" width="700" height="10" class="solution" />
+            <text x="400" y="235" text-anchor="middle" class="text-label" fill="#059669">FINAL RESULT: Level Ice Surface</text>
+            
+            <!-- Progress arrows between passes -->
+            <path d="M 240 95 Q 260 105 280 95" class="arrow" stroke-width="3" />
+            <path d="M 440 95 Q 460 105 480 95" class="arrow" stroke-width="3" />
+        </svg>
+    </div>
+
+    <!-- ========================================= -->
+    <!-- BLADE SETTINGS SECTION -->
+    <!-- ========================================= -->
+    <div class="pass-container">
+        <div class="blade-setting">
+            <h3 style="color: #dc2626; margin-top: 0;">PASS 1</h3>
+            <div style="font-size: 14px; font-weight: bold;">AGGRESSIVE CUT</div>
+            <div style="color: #dc2626;">Blade: -3 to -4mm</div>
+            <div style="font-size: 11px; margin-top: 8px;">Remove bulk of crown<br/>Focus on center high areas</div>
+        </div>
+        
+        <div class="blade-setting">
+            <h3 style="color: #f59e0b; margin-top: 0;">PASS 2</h3>
+            <div style="font-size: 14px; font-weight: bold;">MEDIUM CUT</div>
+            <div style="color: #f59e0b;">Blade: -2 to -2.5mm</div>
+            <div style="font-size: 11px; margin-top: 8px;">Refine the profile<br/>Smooth transitions</div>
+        </div>
+        
+        <div class="blade-setting">
+            <h3 style="color: #16a34a; margin-top: 0;">PASS 3</h3>
+            <div style="font-size: 14px; font-weight: bold;">FINE CUT</div>
+            <div style="color: #16a34a;">Blade: -0.5 to -1mm</div>
+            <div style="font-size: 11px; margin-top: 8px;">Final surface prep<br/>Ready for normal resurfacing</div>
+        </div>
+    </div>
+
+    <!-- ========================================= -->
+    <!-- STEP-BY-STEP PROCESS SECTION -->
+    <!-- ========================================= -->
+    <div class="step">
+        <h3>Step-by-Step Process</h3>
+        <ol>
+            <li><strong>Assessment:</strong> Measure the crown height using a straight edge and determine the total material to remove</li>
+            <li><strong>Pass 1 - Aggressive Cut:</strong>
+                <ul>
+                    <li>Set blade to -3 to -4mm (deepest safe setting for your machine)</li>
+                    <li>Make slow, steady passes focusing on the center high areas</li>
+                    <li>Remove approximately 60-70% of the excess ice</li>
+                    <li>Don't worry about perfect smoothness yet</li>
+                </ul>
+            </li>
+            <li><strong>Pass 2 - Medium Cut:</strong>
+                <ul>
+                    <li>Adjust blade to -2 to -2.5mm</li>
+                    <li>Make overlapping passes to refine the profile</li>
+                    <li>Focus on creating smooth transitions from center to edges</li>
+                    <li>Remove remaining high spots</li>
+                </ul>
+            </li>
+            <li><strong>Pass 3 - Fine Cut:</strong>
+                <ul>
+                    <li>Set blade to -0.5 to -1mm (light finishing cut)</li>
+                    <li>Make final passes for surface smoothness</li>
+                    <li>Prepare surface for normal ice maintenance</li>
+                </ul>
+            </li>
+            <li><strong>Final Check:</strong> Use straight edge to verify level surface before returning to normal operations</li>
+        </ol>
+    </div>
+
+    <!-- ========================================= -->
+    <!-- SAFETY CONSIDERATIONS SECTION -->
+    <!-- ========================================= -->
+    <div class="warning">
+        <h3>⚠️ Important Safety Considerations</h3>
+        <ul>
+            <li><strong>Blade Depth:</strong> Never exceed your machine's maximum safe cutting depth</li>
+            <li><strong>Speed Control:</strong> Use slower speeds for aggressive cuts to maintain control</li>
+            <li><strong>Overlap Patterns:</strong> Ensure 50% overlap between passes to avoid ridges</li>
+            <li><strong>Ice Temperature:</strong> Ideal ice temperature is 22-26°F for cutting</li>
+            <li><strong>Blade Condition:</strong> Use sharp blades - dull blades will cause tearing</li>
+        </ul>
+    </div>
+
+  
+
+    <!-- ========================================= -->
+    <!-- EXPECTED RESULTS SECTION -->
+    <!-- ========================================= -->
+    <div class="success">
+        <h3>✅ Expected Results</h3>
+        <ul>
+            <li><strong>Ice Removal:</strong> 1.5-2 inches of crown height reduced to level surface</li>
+            <li><strong>Surface Quality:</strong> Smooth, skateable surface ready for normal maintenance</li>
+            <li><strong>Equipment:</strong> Uses only your existing ice resurfacer - no special tools needed</li>
+        </ul>
+    </div>
+
+    <!-- ========================================= -->
+    <!-- ADVANTAGES SECTION -->
+    <!-- ========================================= -->
+    <div class="step">
+        <h3>Advantages of This Merged Approach</h3>
+        <ul>
+            <li><strong>Precision Control:</strong> Progressive blade adjustment allows precise material removal</li>
+            <li><strong>Surface Quality:</strong> Multiple passes ensure smooth final surface</li>
+            <li><strong>Equipment Efficiency:</strong> Uses only your existing ice resurfacer</li>
+            <li><strong>Predictable Results:</strong> Each pass has a specific purpose and expected outcome</li>
+            <li><strong>Reduced Risk:</strong> Gradual approach minimizes chance of over-cutting</li>
+            <li><strong>Professional Finish:</strong> Final surface meets skating quality standards</li>
+        </ul>
+    </div>
+
+<!-- ========================================= -->
+<!-- END OF BODY CONTENT -->
+<!-- ========================================= -->
+</body>
+</html>
