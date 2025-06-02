@@ -96,7 +96,7 @@ The solution employs a three-pass approach with progressively finer blade settin
 
 ## Technical Specifications
 
-- **Total Passes**: 3 progressive cuts
+- **Total Passes**: Progressive cuts
 - **Blade Range**: -2.5mm to -0.5mm
 - **Material Removal**: Up to 2 inches of crown height
 - **Surface Finish**: Skating quality
@@ -118,4 +118,3 @@ The solution employs a three-pass approach with progressively finer blade settin
 - **Equipment**: Standard ice resurfacer
 - **Skill Level**: Intermediate to advanced ice maintenance
 
----
